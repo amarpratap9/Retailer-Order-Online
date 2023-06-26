@@ -1,0 +1,44 @@
+<! Doctype html>  
+<html lang="en">  
+<head>  
+  <title>  Registration Form </title> 
+  <link rel="stylesheet" type="text/css" href="regstyle.css"> 
+  
+  </head>
+  <body>
+    <nav id="navbar" >
+			<ul>
+				<li class="item"><a href="http://localhost//online/index.html">Home</a></li>
+				<li class="item"><a href="http://localhost//online/login.html">Sign-in</a></li>
+				<li class="item"><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+    <div class="reg">
+        <h1>Shop Information</h1>
+    <form action="enter.php" method="post">
+        <p>Shop Name</p>
+        <input type="text" name="S_name" placeholder="Enter Your Shop Name" required>
+        <p>Shop Number</p>
+        <input type="text" name="S_number" placeholder="Enter Your Shop Number" required>
+        <p>Email_id:</p>
+        <input type="text" name="Email" placeholder="Enter Your Email_id" required>
+        <p>Area</p>
+        <select id="text" name="Area">
+            <option value="Gobershai">Gobarshai</option>
+            <option value="Bhagwanpur">Bhagwanpur</option>
+            <option value="Khabra">Khabra</option>
+            <option value="Patahin">Patahin</option>
+            <option value="Bairia">Bairia</option>
+          </select><br>
+          <p>Pincode</p>
+          <input type="text" name="pincode" placeholder="Enter Pincode" required>
+          <p>Mobile Number</p>
+          <input type="text" name="phone" placeholder="Enter Your mobile number" required>
+          <p>Password</p>
+          <input type="text" name="pass" placeholder="Enter Password" required>
+          <input type="submit" name="Submit" value="Submit">
+    </form>
+</div>
+<marquee style="font-size:50px;">Welcome Online Harsh Enterprises Platform</marquee>
+  </body>
+</html>
